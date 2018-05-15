@@ -23,7 +23,7 @@ Interface::~Interface()
 	destroy();
 }
 
-void Interface::distructor() {};
+void Interface::destructor() {};
 
 void Interface::destroy()
 {
@@ -44,7 +44,7 @@ void Interface::destroy()
 
 	if (currentCount <= 0)
 	{
-		distructor();
+		destructor();
 
 		delete lockData;
 		delete count;
