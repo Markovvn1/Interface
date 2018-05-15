@@ -9,7 +9,7 @@ private:
 	mutex* lockData = NULL;
 
 protected:
-	virtual void distructor();
+	virtual void destructor();
 
 	void destroy();
 
