@@ -1,3 +1,6 @@
+#pragma once
+#include <mutex>
+
 class Interface
 {
 private:
