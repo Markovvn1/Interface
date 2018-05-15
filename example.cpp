@@ -1,4 +1,7 @@
+#include <iostream>
 #include "interface.hpp"
+
+using namespace std;
 
 class MyConstInt : public Interface
 {
