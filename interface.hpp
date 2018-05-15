@@ -1,6 +1,8 @@
 #pragma once
 #include <mutex>
 
+using namespace std;
+
 class Interface
 {
 private:
